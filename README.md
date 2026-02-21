@@ -1,11 +1,11 @@
-# 🖥️ ProcX – Multi-Instance Process Manager
+#  ProcX – Multi-Instance Process Manager
 
 ProcX is a **Linux-based process management tool** developed as part of an *Operating Systems and Design* term project.
 It allows users to start, list, and terminate programs while keeping multiple ProcX instances synchronized across different terminals using **POSIX Inter-Process Communication (IPC)** mechanisms.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Run programs in **attached** or **detached** mode
 * Global shared process table accessible from all ProcX instances
@@ -17,7 +17,7 @@ It allows users to start, list, and terminate programs while keeping multiple Pr
 
 ---
 
-## 🧠 Core Operating System Concepts
+##  Core Operating System Concepts
 
 This project demonstrates practical use of fundamental OS concepts:
 
@@ -31,7 +31,7 @@ This project demonstrates practical use of fundamental OS concepts:
 
 ---
 
-## 🧩 System Architecture
+##  System Architecture
 
 ProcX consists of the following components:
 
@@ -52,7 +52,7 @@ ProcX consists of the following components:
 
 ---
 
-## ⚙️ Build & Run
+##  Build & Run
 
 ### Compile
 
@@ -68,7 +68,7 @@ make
 
 ---
 
-## 📋 Usage Menu
+##  Usage Menu
 
 ```
 1. Run a new program
@@ -79,7 +79,7 @@ make
 
 ---
 
-## 🧪 Testing Summary
+##  Testing Summary
 
 The project was tested under multiple scenarios including:
 
@@ -93,7 +93,7 @@ All test cases behaved as expected and confirmed correct synchronization and cle
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * Fixed-size shared process table (maximum 50 processes)
 * Simple whitespace-based command parsing
@@ -101,11 +101,11 @@ All test cases behaved as expected and confirmed correct synchronization and cle
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 ProcX successfully demonstrates core operating system mechanisms through a functional and synchronized multi-instance process manager.
 The implementation meets all project requirements and validates correct usage of POSIX IPC, multithreading, and process control in Linux.
 
 ---
 
-📌 *This project was developed for educational purposes.*
+ *This project was developed for educational purposes.*
